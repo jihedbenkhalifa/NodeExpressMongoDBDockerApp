@@ -49,4 +49,4 @@ RUN         npm install
 COPY        . ./
 EXPOSE      ${PORT}
 
-ENTRYPOINT [ "npm","Start" ]
+ENTRYPOINT [ "npm","start" ]
